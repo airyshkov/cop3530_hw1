@@ -10,7 +10,7 @@ Linux thunderx 3.16.0-55-generic ###~##.##.#-Ubuntu SMP Tue Nov 17 10:15:59 UTC 
 
 -------------------------------------
 Input set 1:
-5
+5\n
 12
 19
 16
