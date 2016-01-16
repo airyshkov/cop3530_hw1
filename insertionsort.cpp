@@ -22,7 +22,7 @@ int main() {
 	int* a = numbers; // copy array for sorting
 	
 	// sort array
-	for (int i = 1; i < size; i++) {// insert a[i] into a[0:i-1]
+	for (int i = 1; i < size; i++) {
 		int t = a[i];
 		int j;
 		for (j = i - 1; j >= 0 && t < a[j]; j--)
