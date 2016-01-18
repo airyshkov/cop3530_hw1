@@ -7,6 +7,10 @@ Compiled on UF Linux servers<br>
 Linux thunderx 3.16.0-55-generic ###~##.##.#-Ubuntu SMP Tue Nov 17 10:15:59 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux<br>
 ~$ g++ insertionsort.cpp -o insort<br>
 ~$ ./insort<br>
+<br>
+For some unknown reason, we have to compile it using gcc for the class...why...don't understand. But here's how to do that anyway (using the aforementioned Linux server):<br>
+~$ gcc -Wall -o insort insertionsort.cpp -lstdc++ <br>
+~$ ./insort<br>
 
 -------------------------------------
 Input set 1:<br>
